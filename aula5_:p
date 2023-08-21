@@ -1,0 +1,80 @@
+/*
+* primeiro programa em JavaScript :]
+* Nathaniel Santos
+*/
+
+//CONSOLE.LOG :
+console.log("hello world!");
+//prompt("Qual é o seu nome?");
+
+//VARIAVEL CONST :
+const variavelA = 100;
+const variavelB = variavelA + 50;
+const variavelC = variavelA / variavelB;
+console.log(variavelA);
+console.log(variavelB);
+console.log(variavelC);
+/*
+*     const       [variavel]        =        [100]
+*       ^             ^             ^          ^
+*  inalteravel     variavel    equivalente   valor
+* padrão camelCase para nomear variaveis
+*/
+
+//VARIAVEL LET :
+let numero = 5;
+console.log(numero);
+numero = 120 + 5;
+console.log(numero);
+// let = variavel pode ser alteravel
+
+//CONCATENAR (juntar) TEXTO
+/*
+* let nome = "Hobert";
+* let sobreNome = "Richards";
+* let idade = 100000;
+* console.log("Olá", nome, sobreNome, "voce tem", idade, "anos" );
+*/
+
+
+//VARIAVEL BOOLEANA
+const variavelF = false;
+const variavelV = true;
+console.log("variavel falsa: " + variavelF);
+console.log("variavel verdadeira: " + variavelV);
+
+//EXERCICIO 1
+/*const nome = "Nathaniel";
+const sobreNome = "Santos";
+const idade = 16;
+const estudante = true;
+console.log("Olá, sou", nome, sobreNome, "tenho", idade, "anos" );
+console.log("sou estudante: " + estudante);
+*/
+
+//TYPEOF :
+/*console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof estudante);
+
+let banana;
+console.log(typeof banana);
+banana = "fruta";
+console.log(typeof banana);
+
+const vazia = null;
+console.log(typeof vazia);
+
+/*
+*let valor = prompt("seu nome");
+*console.log(valor);
+*/
+
+//EXERCICIO 2
+let nome = prompt("seu nome");
+let idade = prompt("sua idade");
+nome = "Nathaniel";
+idade = 16;
+console.log(nome, idade);
+console.log(typeof nome);
+console.log(typeof idade);
